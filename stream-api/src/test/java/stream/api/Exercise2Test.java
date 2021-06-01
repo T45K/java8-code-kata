@@ -5,7 +5,6 @@ import common.test.tool.dataset.ClassicOnlineStore;
 import common.test.tool.entity.Customer;
 import common.test.tool.entity.Item;
 import common.test.tool.util.AssertUtil;
-
 import org.junit.Test;
 
 import java.util.Comparator;
@@ -15,7 +14,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.hamcrest.Matchers.contains;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 public class Exercise2Test extends ClassicOnlineStore {
 

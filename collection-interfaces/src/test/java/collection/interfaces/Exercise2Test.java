@@ -1,7 +1,6 @@
 package collection.interfaces;
 
 import common.test.tool.annotation.Easy;
-
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -11,7 +10,7 @@ import java.util.function.BiFunction;
 import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.not;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 public class Exercise2Test {
 

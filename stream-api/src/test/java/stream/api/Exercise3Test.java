@@ -3,7 +3,6 @@ package stream.api;
 import common.test.tool.annotation.Easy;
 import common.test.tool.dataset.ClassicOnlineStore;
 import common.test.tool.entity.Customer;
-
 import org.junit.Test;
 
 import java.util.Comparator;
@@ -12,7 +11,7 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 public class Exercise3Test extends ClassicOnlineStore {
 
